@@ -1,5 +1,8 @@
 {
 	"dependencies": {
-		"class-variance-authority": "^0.7.1"
+		"-": "^0.0.1",
+		"D": "^1.0.0",
+		"class-variance-authority": "^0.7.1",
+		"vite-plugin-svgr": "^5.2.0"
 	}
 }
