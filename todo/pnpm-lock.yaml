@@ -26,6 +26,9 @@ importers:
       use-local-storage:
         specifier: ^3.0.0
         version: 3.0.0(react@19.2.5)
+      use-local-storage-state:
+        specifier: ^19.5.0
+        version: 19.5.0(react-dom@19.2.5(react@19.2.5))(react@19.2.5)
     devDependencies:
       '@babel/core':
         specifier: ^7.29.0
@@ -1047,6 +1050,13 @@ packages:
   uri-js@4.4.1:
     resolution: {integrity: sha512-7rKUyy33Q1yc98pQ1DAmLtwX109F7TIfWlW1Ydo8Wl1ii1SeHieeh0HHfPeL2fMXK6z0s8ecKs9frCuLJvndBg==}
 
+  use-local-storage-state@19.5.0:
+    resolution: {integrity: sha512-sUJAyFvsmqMpBhdwaRr7GTKkkoxb6PWeNVvpBDrLuwQF1PpbJRKIbOYeLLeqJI7B3wdfFlLLCBbmOdopiSTBOw==}
+    engines: {node: '>=14'}
+    peerDependencies:
+      react: '>=18'
+      react-dom: '>=18'
+
   use-local-storage@3.0.0:
     resolution: {integrity: sha512-wlPNnBCG3ULIJMr5A+dvWqLiPWCfsN1Kwijq+sAhT5yV4ex0u6XmZuNwP+RerIOfzBuz1pwSZuzhZMiluGQHfQ==}
     peerDependencies:
@@ -2021,6 +2031,11 @@ snapshots:
   uri-js@4.4.1:
     dependencies:
       punycode: 2.3.1
+
+  use-local-storage-state@19.5.0(react-dom@19.2.5(react@19.2.5))(react@19.2.5):
+    dependencies:
+      react: 19.2.5
+      react-dom: 19.2.5(react@19.2.5)
 
   use-local-storage@3.0.0(react@19.2.5):
     dependencies:
